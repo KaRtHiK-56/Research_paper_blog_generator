@@ -73,3 +73,70 @@ Education: Helps students grasp complex concepts by providing simplified explana
 Science Communication: Assists science communicators in creating content for a broader audience.
 9. Conclusion
 The Generative AI Research Paper Blog Generator is a valuable tool for bridging the gap between complex research and accessible information. By leveraging advanced AI models and prompt techniques, it provides a solution that is both efficient and effective in transforming scholarly content into engaging blog articles.
+
+## Acknowledgements
+
+ - [Langchain](https://www.langchain.com/)
+ - [Ollama](https://ollama.com/)
+ - [Llama-3](https://ollama.com/library/llama3)
+
+
+## Authors
+
+- [@Github](https://www.github.com/KaRtHiK-56)
+- [@LinkedIn](https://www.linkedin.com/in/l-karthik/)
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+
+
+## Demo
+
+https://github.com/KaRtHiK-56/Research_paper_blog_generator
+
+
+## Documentation
+
+ - [Langchain](https://www.langchain.com/)
+ - [Ollama](https://ollama.com/)
+ - [Llama-3](https://ollama.com/library/llama3)
+
+## Technology used
+
+### Backend
+- **LangChain:** For chaining together various AI models and processing workflows.
+- **Llama 3 Model:** A state-of-the-art language model used for generating human-like text.
+- **Python:** The primary programming language for implementing the application logic.
+
+### Frontend
+- **Streamlit:** An open-source app framework used for creating the web interface.
+
+## Installation
+
+#### Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository_url>
+   cd <repository_directory>
+   ```
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Configure Database Connection:**
+   Update the database connection settings in the `config.py` file.
+
+#### Running the Application
+1. **Start the Streamlit Application:**
+   ```bash
+   streamlit run app.py
+   ```
+2. **Enter Query:**
+   Navigate to the Streamlit URL, upload your document, and click "Submit".
+3. **View Results:**
+   The application will display the generated data.
+
